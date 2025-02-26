@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Attendance Sheet</title>
+  </head>
+  <body
+    style="
+      background: url('https://imgs.search.brave.com/_PHPs5_rUa5wRdI4tHoYi2z3FKuCI8vnhPhogpcPpCI/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly92c3Rh/bmQ0dXNvbHV0aW9u/cy5jb20vd3AtY29u/dGVudC91cGxvYWRz/LzIwMjQvMDUvbG9n/by5wbmc')
+        no-repeat center center fixed;
+      background-size: cover;
+      opacity: 1;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background-color: #f5f5f5;
+    "
+  >
+    <form
+      style="
+        background-color: rgba(255, 255, 255, 1);
+        padding: 20px;
+        border-radius: 10px;
+        max-width: 900px;
+        margin: 0 auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+      "
+    >
+      <div style="opacity: 100%">
+        <div style="text-align: center">
+          <span
+            style="
+              background-color: #3dc4fa;
+              border-radius: 8px;
+              font-size: 32px;
+              padding: 10px 20px;
+              color: #fff;
+              text-shadow: 1px 1px 2px #333;
+              letter-spacing: 1px;
+            "
+          >
+            Vstand4U Solutions Attendance Sheet
+          </span>
+        </div>
+        <br /><br />
+        <section style="text-align: center">
+          <label style="font-weight: bold; color: #333">Class:</label>
+          <input
+            type="text"
+            placeholder="Class Name"
+            style="
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 200px;
+              margin-left: 10px;
+            "
+          />
+          <label style="font-weight: bold; color: #333; margin-left: 50px"
+            >Location:</label
+          >
+          <select
+            style="
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 200px;
+              margin-left: 10px;
+            "
+          >
+            <option>-Select Location-</option>
+            <option>Bangalore</option>
+            <option>No Other Location</option>
+          </select>
+          <br /><br />
+          <label style="font-weight: bold; color: #333">Trainer:</label>
+          <input
+            type="text"
+            placeholder="Trainer Name"
+            style="
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 200px;
+              margin-left: 10px;
+            "
+          />
+          <label style="font-weight: bold; color: #333; margin-left: 50px"
+            >Date:</label
+          >
+          <input
+            type="date"
+            style="
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 200px;
+              margin-left: 10px;
+            "
+          />
+          <br>
+          <br>
+          <label style="font-weight: bold; color: #333; margin-left: 50px"
+            >Batch:</label
+          >
+          <select
+            style="
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 5px;
+              width: 200px;
+              margin-left: 10px;
+            "
+          >
+            <option>-Select Batch-</option>
+            <option>9:30 AM Offline Batch</option>
+            <option>9:30 AM Online Batch</option>
+            <option>11:30 AM Offline Batch</option>
+          </select>
+          <br /><br />
+
+          <table
+            border="1"
+            style="
+              text-align: center;
+              width: 100%;
+              margin: 0 auto;
+              border-collapse: collapse;
+              background-color: #fff;
+              box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            "
+          >
+            <tr
+              style="background-color: #3dc4fa; color: #fff; font-weight: bold"
+            >
+              <th style="padding: 10px; border: 1px solid #999">VSN</th>
+              <th style="padding: 10px; border: 1px solid #999">
+                Attendee Name
+              </th>
+              <th style="padding: 10px; border: 1px solid #999">Phone</th>
+              <th style="padding: 10px; border: 1px solid #999">Email</th>
+              <th style="padding: 10px; border: 1px solid #999">
+                Attendance Status
+              </th>
+            </tr>
+            <tr style="background-color: #f9f9f9">
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Abhilash R</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652754816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                abhilash9852@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status1" /> P
+                <input type="radio" name="status1" /> A
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Ahalya S</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652574816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                ahalya1652@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status2" /> P
+                <input type="radio" name="status2" /> A
+              </td>
+            </tr>
+            <tr style="background-color: #f9f9f9">
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Amrutha M R</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652775917</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                amrutha5912@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status3" /> P
+                <input type="radio" name="status3" /> A
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                Amruthavarshini P
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">9635854816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                amruthavarshini9652@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status4" /> P
+                <input type="radio" name="status4" /> A
+              </td>
+            </tr>
+            <tr style="background-color: #f9f9f9">
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Ananya H</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652756972</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                ananya6957@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status5" /> P
+                <input type="radio" name="status5" /> A
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Ashwin A S</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9629528681</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                ashwinsankaran2003@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status6" /> P
+                <input type="radio" name="status6" /> A
+              </td>
+            </tr>
+            <tr style="background-color: #f9f9f9">
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                Ayyappa Hunashikatti
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652754875</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                ayyappa9852@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status7" /> P
+                <input type="radio" name="status7" /> A
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                Banavasi Prakesh
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652754816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                prakesh9852@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status8" /> P
+                <input type="radio" name="status8" /> A
+              </td>
+            </tr>
+            <tr style="background-color: #f9f9f9">
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Abhilash R</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652754816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                abhilash9852@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status9" /> P
+                <input type="radio" name="status9" /> A
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ccc">VS4U2025xxxx</td>
+              <td style="padding: 8px; border: 1px solid #ccc">Abhilash R</td>
+              <td style="padding: 8px; border: 1px solid #ccc">9652754816</td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                abhilash9852@gmail.com
+              </td>
+              <td style="padding: 8px; border: 1px solid #ccc">
+                <input type="radio" name="status10" /> P
+                <input type="radio" name="status10" /> A
+              </td>
+            </tr>
+          </table>
+          <br /><br />
+          <center>
+            <label style="font-weight: bold; color: #333">Submit:</label>
+            <input
+              type="submit"
+              style="
+                padding: 10px 20px;
+                background-color: #3dc4fa;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                margin-right: 50px;
+                cursor: pointer;
+              "
+            />
+            <label style="font-weight: bold; color: #333">Reset:</label>
+            <input
+              type="reset"
+              style="
+                padding: 10px 20px;
+                background-color: #ff6347;
+                color: #fff;
+                border: none;
+                border-radius: 5px;
+                cursor: pointer;
+              "
+            />
+          </center>
+        </section>
+        <br /><br />
+      </div>
+    </form>
+  </body>
+</html>
